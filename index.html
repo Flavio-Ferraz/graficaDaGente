@@ -6,6 +6,8 @@
     <title>Gráfica da Gente</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
     <div class="container-fluid principal">
@@ -76,15 +78,15 @@
                             </div>
                         </div>
                         <div class="col-md-6 d-flex justify-content-center align-items-center" id="texto">
-                            <div class="texto">
-                                <h4 class="">A Gráfica Da Gente nasceu para transformar criatividade em realidade, com qualidade, um atendimento que faz a diferença e muito impacto social. Somos um negócio social do Instituto Amargen, onde 100% do lucro gerado é revertido para a sustentabilidade do nosso trabalho.</h4>
+                            <div class="texto text-danger">
+                                <h4 class="text-danger">A Gráfica Da Gente nasceu para transformar criatividade em realidade, com qualidade, um atendimento que faz a diferença e muito impacto social. Somos um negócio social do Instituto Amargen, onde 100% do lucro gerado é revertido para a sustentabilidade do nosso trabalho.</h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 <section class="container-fluid servicos">
-    <h2 class="text-center mb-4">Nossos Serviços</h2>
+    <h2 class="text-center mb-4 text-danger"> Nossos Serviços</h2>
 
     <div id="carouselProdutos" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -119,8 +121,6 @@
             </div>
         </div>
 
-        </div>
-
         <!-- Controles -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselProdutos" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
@@ -132,6 +132,50 @@
         </button>
     </div>
 </section>
+
+<section class="contato">
+    <h2 class="text-center mb-4 text-danger">Fale conosco</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Seu e-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="whatsapp" class="form-label">Seu Whatsapp</label>
+                    <input type="tel" class="form-control" id="whatsapp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Sua mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+                </div>
+                <div class="mb-3 text-end">
+                    <button type="submit" class="btn btn-danger">
+                        Enviar mensagem
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <div class="redes text-white p-4 rounded">
+                    <div class="redes text-white p-4 rounded text-center">
+                        <h5 class="mb-4 text-danger">Nossas redes sociais</h5>
+                        <a href="https://www.instagram.com/grafica.dagente/" target="_blank" class="btn btn-instagram me-2">
+                            <i class="fab fa-instagram"></i> Gráfica da Gente
+                        </a>
+                        <a href="https://www.instagram.com/institutoamargen/" target="_blank" class="btn btn-instagram me-2">
+                            <i class="fab fa-instagram"></i> Instituto Amargen
+                        </a>
+                        <a href="https://wa.me/553291289254" target="_blank" class="btn btn-success">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     
         </main>

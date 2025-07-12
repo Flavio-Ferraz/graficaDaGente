@@ -5,12 +5,9 @@ body, html {
 
 .principal {
     border-bottom: solid 4px orange;
-}
-
-.container-fluid{
-        background-color: rgb(2, 2, 2);
-        color: red;
-        font-weight: bold;
+    background-color: rgb(2, 2, 2);
+    color: red;
+    font-weight: bold;
 }
 
 .navbar .nav-item .nav-link{
@@ -95,4 +92,46 @@ body, html {
 p {
     font-family: "Baloo 2", sans-serif;
     font-weight: bold;
+}
+
+.contato {
+    border-bottom: solid 4px orange;
+    background-color: blanchedalmond;
+    height: auto;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.contatos{
+    display: flex;
+    margin-left: 8px;
+}
+
+.formulario{
+    margin-left: 16px;
+}
+
+.redes{
+    width: 100%;
+    min-height: 250px; 
+    text-align: center;
+}
+
+.redes a {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.btn-instagram {
+    background-color: #C13584 !important; /* cor oficial do Instagram */
+    color: white !important;
+    border: none !important;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-instagram:hover {
+    background-color: #d12e85;
+    color: white;
+    transform: scale(1.05);
 }
