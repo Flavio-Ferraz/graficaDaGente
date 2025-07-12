@@ -130,14 +130,14 @@ p {
 }
 
 .btn-instagram {
-    background-color: #C13584 !important; /* cor oficial do Instagram */
+    background-color: #FF69B4 !important; /* cor oficial do Instagram */
     color: white !important;
     border: none !important;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-instagram:hover {
-    background-color: #d12e85;
+    background-color: #ff0080 !important;
     color: white;
     transform: scale(1.05);
 }
