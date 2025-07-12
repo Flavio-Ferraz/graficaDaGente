@@ -26,7 +26,7 @@ body, html {
 
 #texto{
     align-items: center;
-    text-align: justify;
+    text-align:start;
     justify-content: center;
 }
 
