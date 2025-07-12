@@ -131,6 +131,9 @@
         <span class="visually-hidden">Próximo</span>
         </button>
     </div>
+    <div class="catalogo d-flex justify-content-center">
+        <img src="./img/Gráfica Amargem.jpeg"  class="img-fluid rounded shadow" alt="catálogo com preços de serviços e produtos da gráfica">
+    </div>
 </section>
 
 <section class="contato">
@@ -138,23 +141,34 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="mb-3">
-                    <label for="email" class="form-label">Seu e-mail</label>
-                    <input type="email" class="form-control" id="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="whatsapp" class="form-label">Seu Whatsapp</label>
-                    <input type="tel" class="form-control" id="whatsapp" required>
-                </div>
-                <div class="mb-3">
-                    <label for="mensagem" class="form-label">Sua mensagem</label>
-                    <textarea class="form-control" id="mensagem" rows="3" required></textarea>
-                </div>
-                <div class="mb-3 text-end">
-                    <button type="submit" class="btn btn-danger">
-                        Enviar mensagem
-                    </button>
-                </div>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Seu e-mail</label>
+                        <input type="email" class="form-control" id="email" required>
+                        <div class="invalid-feedback">
+                            Por favor, preencha este campo.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="whatsapp" class="form-label">Seu Whatsapp</label>
+                        <input type="tel" class="form-control" id="whatsapp" required>
+                        <div class="invalid-feedback">
+                            Por favor, preencha este campo.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Sua mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+                        <div class="invalid-feedback">
+                            Por favor, preencha este campo.
+                        </div>
+                    </div>
+                    <div class="mb-3 text-end">
+                        <button type="submit" class="btn btn-danger">
+                            Enviar mensagem
+                        </button>
+                    </div>
+                </form>
             </div>
             <div class="col-md-6 d-flex align-items-center justify-content-center">
                 <div class="redes text-white p-4 rounded">
