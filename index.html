@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfica da Gente</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid principal">
+        <header>
+                <nav class="navbar navbar-expand-md">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                        <img src="./img/logotipo.png" alt="Bootstrap" width="88" height="44">
+                        </a> 
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Quem somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Produtos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Serviços</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <main>
+            <section class="quem-somos container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="carrossel">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="5000">
+                                            <div class="d-flex align-items-center justify-content-center slide-content">
+                                                <img src="./img/marcadores.jpeg" class="d-block  border rounded" id="img-carr" alt="...">
+                                            </div>
+                                        </div>                        
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                                <div class="d-flex  align-items-center justify-content-center slide-content">
+                                                    <img src="./img/marcadores2.jpeg" class="d-block border rounded" id="img-carr" alt="...">
+                                                </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                                <div class="d-flex  align-items-center justify-content-center slide-content">
+                                                    <img src="./img/almanaque.jpeg" class="d-block border rounded" id="img-carr" alt="...">
+                                                </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                                <div class="d-flex  align-items-center justify-content-center slide-content">
+                                                    <img src="./img/certificados.jpeg" class="d-block border rounded" id="img-carr" alt="...">
+                                                </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                                <div class="d-flex  align-items-center justify-content-center slide-content">
+                                                    <img src="./img/pintura.jpeg" class="d-block border rounded" id="img-carr" alt="...">
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" id="texto">
+                            <div class="texto">
+                                <h4 class="">A Gráfica Da Gente nasceu para transformar criatividade em realidade, com qualidade, um atendimento que faz a diferença e muito impacto social. Somos um negócio sociao do Instituto Amargen, onde 100% do lucro gerado é revertido para a sustentabilidade do nosso trabalho.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<section class="container-fluid servicos">
+    <h2 class="text-center mb-4">Nossos Serviços</h2>
+
+    <div id="carouselProdutos" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="./img/marcadores2.jpeg" class="d-block w-100" alt="Produto 4">
+            </div>
+            <div class="d-none d-md-block col-md-6 col-lg-4">
+                <img src="./img/panfleto1.jpeg" class="d-block w-100" alt="Produto 5">
+            </div>
+            <div class="d-none d-lg-block col-lg-4">
+                <img src="./img/pintura.jpeg" class="d-block w-100" alt="Produto 6">
+            </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="./img/certificados.jpeg" class="d-block w-100" alt="Produto 7">
+            </div>
+            <div class="d-none d-md-block col-md-6 col-lg-4">
+                <img src="./img/panfleto1.jpeg" class="d-block w-100" alt="Produto 8">
+            </div>
+            <div class="d-none d-lg-block col-lg-4">
+                <img src="./img/marcadores.jpeg" class="d-block w-100" alt="Produto 9">
+            </div>
+            </div>
+        </div>
+
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProdutos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselProdutos" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+</section>
+
+    
+        </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
