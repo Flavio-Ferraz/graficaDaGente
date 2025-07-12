@@ -132,9 +132,20 @@
         </button>
     </div>
     <div class="catalogo d-flex justify-content-center">
-        <img src="./img/Gráfica Amargem.jpeg"  class="img-fluid rounded shadow" alt="catálogo com preços de serviços e produtos da gráfica">
+        <img src="./img/Gráfica Amargem.jpeg" alt="Catálogo com preços" class="img-fluid rounded shadow" data-bs-toggle="modal" data-bs-target="#modalCatalogo" style="cursor: pointer;">
     </div>
 </section>
+
+<div class="modal fade" id="modalCatalogo" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content bg-dark">
+        <div class="modal-body p-0 d-flex justify-content-center align-items-center">
+            <img src="./img/Gráfica Amargem.jpeg" alt="Catálogo ampliado" class="img-fluid">
+            <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        </div>
+    </div>
+</div>
 
 <section class="contato">
     <h2 class="text-center mb-4 text-danger">Fale conosco</h2>
